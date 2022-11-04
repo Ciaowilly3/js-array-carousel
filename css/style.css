@@ -1,0 +1,27 @@
+.no-stretch{
+    object-fit: contain;
+}
+
+.my-btn{
+    width: 32px;
+    aspect-ratio: 1 / 1;
+    background-color: rgba(220, 220, 220, 0.505);
+    font-size: 20px;
+    border: none;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.my-btn:active{
+    scale: 1.2;
+}
+
+.top-btn{
+    top: 0;
+    left: 50%;
+
+}
+.btm-btn{
+    bottom: 0;
+    left: 50%;
+}
